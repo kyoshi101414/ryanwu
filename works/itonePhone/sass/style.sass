@@ -1,0 +1,164 @@
+*
+  // border: solid 1px
+  position: relative
+  font-family: 微軟正黑體
+  vertical-align: top
+
+body,html
+  width: 100%
+  // height: 100%
+  margin: 0px
+  padding: 0px
+  background-color: #222
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  
+.phone
+  width: 250px
+  padding: 10px
+  border-radius: 10px
+  background-color: #f3f3f3
+  transition-duration: 0.5s
+  margin-top: 20px
+  left: 0px
+  
+.top
+  height: 40px
+  .camera
+    width: 10px
+    height: 10px
+    border-radius: 100%
+    background-color: #333
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+  
+.screen
+  height: 300px
+  transition-duration: 0.5s
+  overflow: hidden
+  cursor: pointer
+  .pages
+    width: 100%
+    height: 100%
+    white-space: nowrap
+    font-size: 0px
+    transition-duration: 1s
+    left: 0px
+    .page
+      width: 100%
+      height: 100%
+      display: inline-block
+      font-size: initial
+      background-color: #333
+      padding: 10px
+      box-sizing: border-box
+      color: #aaa
+      position: relative
+      white-space: normal
+      line-height: 1.5
+      p
+        font-size: 15px
+        padding-top: 15px
+      h3
+        margin: 0px
+        color: #fff
+      &:before
+        content: ""
+        display: block
+        background-color: #07BBF7
+        height: 60px
+        position: absolute
+        // margin: -10px
+        left: 0
+        top: 0
+        width: 100%
+      &:after
+        content: ""
+        display: block
+        background-color: #07BBF7
+        height: 20px
+        position: absolute
+        left: 0
+        bottom: 0
+        width: 100%
+    .page1
+      background-color: #07BBF7
+      color: #fff
+      h4
+        margin-top: 10px
+      .cloud
+        animation: clouddrift 4s infinite
+      .cloud.cloud1
+        width: 135px
+        height: 50px
+        background-color: #EBF6FA
+        border-radius: 30px
+        left: 45px
+        top: 87px
+      .cloud.cloud2
+        width: 70px
+        height: 70px
+        background-color: #EBF6FA
+        border-radius: 100%
+        left: 62px
+        top: 13px
+      .cloud.cloud3
+        width: 70px
+        height: 70px
+        background-color: #EBF6FA
+        border-radius: 100%
+        left: 97px
+        top: -69px
+  
+@keyframes clouddrift
+  0%
+    transform: translateY(0px)
+  50%
+    transform: translateY(-25px) translateX(8px)
+  100%
+    transform: translateY(0px)
+        
+.bottom
+  height: 60px
+  
+.button
+  width: 40px
+  height: 40px
+  border-radius: 100%
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+  text-align: center
+  font-size: 24.5px
+  border: 1px solid rgba(#000,0.3)
+  color: rgba(#000,0.4)
+  cursor: pointer
+  &:hover
+    background-color: #ccc
+  
+.text,.phonename
+  color: #fff
+  margin: 0px
+  
+.text
+  margin-top: 20px
+  font-size: 17px
+.phonename
+  margin: 20px
+  
+.buttons
+  button
+    background-color: transparent
+    border: solid 1px rgba(#fff,0.2)
+    padding: 5px 15px 
+    border-radius: 5px
+    cursor: pointer
+    color: white
+    &:hover
+      background-color: white
+      color: black
+    

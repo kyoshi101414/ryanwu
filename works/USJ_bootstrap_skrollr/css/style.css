@@ -1,0 +1,135 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+a[href *="updog"]{display:none!important;}
+
+header.jumbotron {
+  background-image: url("https://p2.bahamut.com.tw/M/2KU/88/0001372888.JPG");
+  background-size: cover;
+  color: black;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  opacity: 0.9;
+}
+header.jumbotron .container {
+  padding: 180px 0px;
+}
+header.jumbotron hr {
+  max-width: 60px;
+  border: solid 2px #AF13ED;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section-ask {
+  background-color: #AF13ED;
+}
+section#section-ask .col-sm-5.img {
+  background-image: url("https://scontent-ams3-1.cdninstagram.com/t51.2885-15/s640x640/e35/15534970_621737998027309_6825999877244190720_n.jpg");
+  height: 491px;
+  mix-blend-mode: multiply;
+}
+section#section-ask h2 {
+  margin-top: 249px;
+  padding: 0px 20px;
+}
+
+section#section-about img {
+  width: 105%;
+}
+section#section-about .img-wrap {
+  height: 220px;
+  overflow: hidden;
+}
+
+section#section-story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section-story .col-sm-5 {
+  background-image: url("https://www.usj.co.jp/overseas/attraction/img/index_download_img.png");
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #FAE8C8;
+  height: 400px;
+}
+section#section-story .col-sm-5 .cross {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 47%;
+  top: 18%;
+}
+section#section-story .col-sm-7 {
+  text-align: center;
+}
+section#section-story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section-story .col-sm-12.colall {
+  margin: 40px 0px;
+}
+
+section#section-future img {
+  width: 100%;
+}
+section#section-future i {
+  font-size: 30px;
+}
+section#section-future .mario {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  background-image: url("https://resources.matcha-jp.com/resize/720x2000/2017/09/05-35401.jpeg");
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  background-position: center center;
+}
+footer.jumbotron input {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+footer.jumbotron .container {
+  padding: 10px 0px;
+}
+footer.jumbotron hr {
+  max-width: 60px;
+  border: solid 2px #AF13ED;
+}
+
+nav.navbar {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #AF13ED;
+}

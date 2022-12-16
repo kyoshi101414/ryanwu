@@ -1,0 +1,109 @@
+$color_blue: #AF13ED
+
+*
+  font-family: "微軟正黑體"
+  // border: solid 1px
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+  
+header.jumbotron
+  background-image: url("https://p2.bahamut.com.tw/M/2KU/88/0001372888.JPG")
+  background-size: cover
+  // background-position: center 30%
+  color: black
+  background-attachment: fixed
+  margin-bottom: 0
+  opacity: 0.7
+  .container
+    padding: 180px 0px
+  hr
+    max-width: 60px
+    border: solid 2px $color_blue
+  h4
+    color: rgba(white,0.8)
+
+section
+  padding: 50px 0px
+
+section#section-ask
+  background-color: $color-blue
+  .col-sm-5.img
+    background-image: url("https://scontent-ams3-1.cdninstagram.com/t51.2885-15/s640x640/e35/15534970_621737998027309_6825999877244190720_n.jpg")
+    height: 491px
+    mix-blend-mode: multiply
+  h2
+    margin-top: 249px
+    padding: 0px 20px
+    
+section#section-about
+  img
+    width: 105%
+  .img-wrap
+    height: 220px
+    overflow: hidden
+    
+section#section-story
+  background-color: #222
+  color: white
+  padding: 0
+  .col-sm-5
+    background-image: url("https://www.usj.co.jp/overseas/attraction/img/index_download_img.png")
+    background-size: 100% auto
+    background-position: center center
+    background-repeat: no-repeat
+    background-color: #FAE8C8
+    height: 400px
+    .cross
+      color: red
+      font-size: 30px
+      font-weight: bold
+      position: absolute
+      left: 47%
+      top: 18%
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 40px
+  .col-sm-12.colall
+    margin: 40px 0px
+    
+section#section-future
+  img
+    width: 100%
+  i
+    font-size: 30px
+  .mario
+    padding-top: 10px
+    padding-bottom: 10px
+
+footer.jumbotron
+  background-image: url("https://resources.matcha-jp.com/resize/720x2000/2017/09/05-35401.jpeg")
+  background-size: cover
+  // background-position: center center
+  color: #fff
+  background-attachment: fixed
+  margin-bottom: 0
+  background-position: center center
+  input
+    // background-color: transparent
+    max-width: 350px
+    margin-left: auto
+    margin-right: auto
+    margin-top: 30px
+  .container
+    padding: 10px 0px
+  hr
+    max-width: 60px
+    border: solid 2px $color_blue
+    
+nav.navbar
+  transition: 0.8s
+    
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  a
+    color: white
+    transition: 0.5s
+    &:hover
+      color: $color_blue

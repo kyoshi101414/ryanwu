@@ -1,0 +1,127 @@
+*{
+	/*border: solid 1px;*/
+	position: relative;
+	font-size: 16px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+}
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	background: #e2244a;
+}
+
+a[href *="updog"]{display:none!important;}
+
+p{
+	color: white;
+}
+
+.content{
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat-x;
+}
+
+.top{
+	background: url(images/c_bg_04.jpg);
+	background-repeat: no-repeat;
+	height: 887px;
+	background-position: center;
+}
+
+.inner_top1{
+	background: url(images/inser_name.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 20px;
+    height: 33px;
+}
+
+.inner_top1_1{
+	left: -100px;
+    top: 4px;
+    text-align: center;
+}
+
+.inner_top2{
+	background: url(images/coin.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 30px;
+    height: 88px;
+}
+
+.inner_top2_1{
+	text-align: center;
+	top: 14px;
+    right: 116px;
+}
+
+.inner_top2_2{
+	text-align: center;
+	top: 29px;
+    right: 100px;
+}
+
+.top2{
+	background: url(images/title.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 175px;
+    top: 57px;
+}
+
+.top3{
+	background: url(images/table.png);
+	background-repeat: no-repeat;
+	height: 482px;
+    background-position: center;
+    top: 94px;
+}
+
+.footer{
+	background: url(images/h_bg_09.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom; 
+	    height: 336px;
+
+}
+
+.left{
+	display: block;
+	float: left;
+	margin: -214px 0px 0px 300px;
+}
+
+.s_bing_left {
+    margin: 18px 0px 0px 0px;
+}
+
+.left2 {
+    margin: 24px 200px;
+}
+
+p {
+    color: white;
+    line-height: 23px;
+}
+
+.left3 {
+    margin: 10px 240px;
+}
+
+.right {
+    float: right;
+    margin: 0px 270px 0px 0px;
+}
+
+.right1 {
+    margin: -230px 0px 0px 50px;
+}
+
+.right2 {
+    margin: 27px 0px 0px 0px;
+}
+
+

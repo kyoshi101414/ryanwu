@@ -1,0 +1,226 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  font-family: 微軟正黑體;
+  vertical-align: top;
+}
+
+body, html {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+a[href *="updog"]{display:none!important;}
+
+.phone {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  margin-top: 20px;
+  left: 0px;
+}
+
+.top {
+  height: 40px;
+}
+.top .camera {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #333;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.screen {
+  height: 300px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.screen .pages {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  font-size: 0px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  left: 0px;
+}
+.screen .pages .page {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  font-size: initial;
+  background-color: #333;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #aaa;
+  position: relative;
+  white-space: normal;
+  line-height: 1.5;
+}
+.screen .pages .page p {
+  font-size: 15px;
+  padding-top: 15px;
+}
+.screen .pages .page h3 {
+  margin: 0px;
+  color: #fff;
+}
+.screen .pages .page:before {
+  content: "";
+  display: block;
+  background-color: #07BBF7;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.screen .pages .page:after {
+  content: "";
+  display: block;
+  background-color: #07BBF7;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.screen .pages .page1 {
+  background-color: #07BBF7;
+  color: #fff;
+}
+.screen .pages .page1 h4 {
+  margin-top: 10px;
+}
+.screen .pages .page1 .cloud {
+  -webkit-animation: clouddrift 4s infinite;
+          animation: clouddrift 4s infinite;
+}
+.screen .pages .page1 .cloud.cloud1 {
+  width: 135px;
+  height: 50px;
+  background-color: #EBF6FA;
+  border-radius: 30px;
+  left: 45px;
+  top: 87px;
+}
+.screen .pages .page1 .cloud.cloud2 {
+  width: 70px;
+  height: 70px;
+  background-color: #EBF6FA;
+  border-radius: 100%;
+  left: 62px;
+  top: 13px;
+}
+.screen .pages .page1 .cloud.cloud3 {
+  width: 70px;
+  height: 70px;
+  background-color: #EBF6FA;
+  border-radius: 100%;
+  left: 97px;
+  top: -69px;
+}
+
+@-webkit-keyframes clouddrift {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-25px) translateX(8px);
+            transform: translateY(-25px) translateX(8px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes clouddrift {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-25px) translateX(8px);
+            transform: translateY(-25px) translateX(8px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+.bottom {
+  height: 60px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24.5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ccc;
+}
+
+.text, .phonename {
+  color: #fff;
+  margin: 0px;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.phonename {
+  margin: 20px;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.buttons button:hover {
+  background-color: white;
+  color: black;
+}
